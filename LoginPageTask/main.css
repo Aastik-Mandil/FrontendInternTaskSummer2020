@@ -1,41 +1,37 @@
-* {
-  box-sizing: border-box;
+body{
+    background: lightgoldenrodyellow;
 }
-
-body {
-  font-family: "open sans", helvetica, arial, sans;
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    background: darkslategrey;
+    max-width: 100%;
+    margin: 37px auto;
+    padding: 10px 10px 10px;
+    text-align: center;
+    border: 2px solid rgb(247, 210, 90);
+    border-radius: 20px;
 }
-.logo{
-  width: 100px;
+.detail{
+    margin-top: 50px;
 }
-.log-form {
-  width: 100%;
-  min-width: 320px;
-  max-width: 475px;
-  background: #fff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+.heading{
+    background-color: rgb(72, 255, 72);
+    text-align: center;
+    padding: 20px;
+    color: rgb(238, 12, 106);
 }
-
-h2 {
-  text-align: center;
+.element{
+    color: rgb(245, 135, 91);
+    text-align: start;
 }
-.log-form {
-  padding: 2em;
-  -webkit-box-shadow: 4px -1px 53px -7px rgba(138, 138, 138, 0.30);
-  -moz-box-shadow: 4px -1px 53px -7px rgba(138, 138, 138, 0.30);
-  box-shadow: 4px -1px 53px -7px rgba(138, 138, 138, 0.30);
+.input{
+    color: rgb(211, 27, 186);
 }
-
-form {
-  display: block;
-  text-align: center;
-  width: 100%;
+.item{
+    color: white;
 }
-/* ========================WRITE YOUR CSS FROM HERE======================== */
+.submit{
+    width: 150px;
+    text-align: center;
+    margin:0 auto;
+}
